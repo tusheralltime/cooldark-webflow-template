@@ -23,6 +23,7 @@
 }
 .primary-text {
     color: #4E47FF;
+    font-weight: bold;
 }
 .btn-primary {
     background-color: #4E47FF;
@@ -34,8 +35,15 @@
     border-radius: 10px;
 }
 
+.section-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
 
-    
+.text-center {
+    text-align: center;
+}
 
 /* Header section */
 .header {
@@ -85,10 +93,7 @@ main section {
 .action-content {
     width: 517px;
 }
-.action-title {
-    font-size: 42px;
-    font-weight: bold;
-}
+
 .action-subtitle {
     font-size: 24px;
     font-weight: 400;
@@ -96,4 +101,30 @@ main section {
 .action-img-pic {
     width: 403px;
     border-radius:48px;
+}
+
+/* productive-user section */
+.productive-user{
+     max-width: 1140px;
+     margin: 0 auto;
+     background-color: #E5E7FF;
+     border-radius: 50px;
+     padding:50px 142px;
+}
+.users-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.p-user-title {
+    font-size: 38px;
+}
+.user-title {
+    font-size: 80px;
+    margin-bottom: -5px;
+}
+.user-subtitle {
+    font-size: 20px;
+    color: 000000;
+    font-weight: 400;
 }
