@@ -162,7 +162,9 @@ main section {
     border-radius: 14px;
     padding: 24px;
 }
-
+.feadback-subtitle{
+    font-size: 20px;
+}
 .reviewer-info {
     display: flex;
     align-items: center;
