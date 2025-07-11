@@ -34,6 +34,12 @@
     border-radius: 10px;
 }
 
+.btn-primary:hover {
+    background-color: #6C63FF;
+    font-size: 18px;
+    cursor: pointer;
+}
+
 .section-title {
     font-size: 42px;
     font-weight: bold;
@@ -147,6 +153,7 @@ main section {
 .feadback-container {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 
 .feadback {
@@ -158,7 +165,8 @@ main section {
 
 .reviewer-info {
     display: flex;
-
+    align-items: center;
+    gap: 10px;
 
 }
 
@@ -167,8 +175,9 @@ main section {
 }
 
 .reviewer-img {
-    margin-top: 0px;
-    margin-right: 25px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
 }
 
 /*  GetInTouch section */
@@ -222,34 +231,38 @@ main section {
     cursor: pointer;
 }
 
+.get-form button:hover {
+    background-color: yellowgreen;
+}
+
 /* footer section */
 
 footer {
-  margin-top: auto;
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #fff;
+    margin-top: auto;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
 }
 
- .footer-title {
-  font-size: 32px;
-  font-weight: bold;
-  color: #4a3aff;
+.footer-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4a3aff;
 }
 
- .footer-description{
-  margin: 10px 0;
-  font-size: 14px;
-  color: #555;
+.footer-description {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
 }
 
- .footer-menu {
-  margin-top: 15px;
-  font-size: 14px;
-  color: #444;
+.footer-menu {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #444;
 }
 
- .menu span {
-  margin: 0 10px;
-  cursor: pointer;
+.menu span {
+    margin: 0 10px;
+    cursor: pointer;
 }
