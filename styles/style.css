@@ -18,10 +18,10 @@
 
 
 /* shared style */
-.secondary-color {
+.secondary-text {
     color: #252432;
 }
-.primary-color {
+.primary-text {
     color: #4E47FF;
 }
 .btn-primary {
@@ -33,6 +33,9 @@
     padding:12px 35px;
     border-radius: 10px;
 }
+
+
+    
 
 /* Header section */
 .header {
@@ -61,4 +64,36 @@ nav {
 }
 .banner-title {
     font-size: 65px;
+}
+
+
+/* Main */
+main {
+   background-color: #F5F8FF;  
+}
+
+main section {
+    padding: 120px 0;
+}
+/*  action section */
+.action {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.action-content {
+    width: 517px;
+}
+.action-title {
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-subtitle {
+    font-size: 24px;
+    font-weight: 400;
+}
+.action-img-pic {
+    width: 403px;
+    border-radius:48px;
 }
