@@ -171,7 +171,7 @@ main section {
     margin-right: 25px;
 }
 
-/*  contact section */
+/*  GetInTouch section */
 .GetInTouch-section {
     background-color: #f5f7ff;
     padding: 60px 10%;
@@ -210,16 +210,46 @@ main section {
 
 .get-form textarea {
     height: 100px;
-    resize: none;
-    border: 2px solid #00aaff;
 }
 
 .get-form button {
-    background-color: #4a3aff;
+    background-color: #4E47FF;
     padding: 12px;
     font-size: 16px;
     border: none;
     border-radius: 6px;
     color: white;
     cursor: pointer;
+}
+
+/* footer section */
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+ .footer-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4a3aff;
+}
+
+ .footer-description{
+  margin: 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+ .footer-menu {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #444;
+}
+
+ .menu span {
+  margin: 0 10px;
+  cursor: pointer;
 }
