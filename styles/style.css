@@ -1,18 +1,15 @@
-
-
-
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: black;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: black;
+    font-style: normal;
 }
 
 
@@ -21,17 +18,19 @@
 .secondary-text {
     color: #252432;
 }
+
 .primary-text {
     color: #4E47FF;
     font-weight: bold;
 }
+
 .btn-primary {
     background-color: #4E47FF;
     color: #FFFFFF;
     font-size: 16px;
-    border:none;
+    border: none;
     font-weight: bold;
-    padding:12px 35px;
+    padding: 12px 35px;
     border-radius: 10px;
 }
 
@@ -60,16 +59,18 @@ nav {
     justify-content: space-between;
     margin: 0px 150px;
 }
+
 .nav-title {
     font-size: 34px;
 }
 
 /* banner styles */
-.banner{
-    
-    padding:110px 0 200px 0;
+.banner {
+
+    padding: 110px 0 200px 0;
     text-align: center;
 }
+
 .banner-title {
     font-size: 65px;
 }
@@ -77,12 +78,13 @@ nav {
 
 /* Main */
 main {
-   background-color: #F5F8FF;  
+    background-color: #F5F8FF;
 }
 
 main section {
     padding: 120px 0;
 }
+
 /*  action section */
 .action {
     display: flex;
@@ -90,6 +92,7 @@ main section {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 .action-content {
     width: 517px;
 }
@@ -98,31 +101,36 @@ main section {
     font-size: 24px;
     font-weight: 400;
 }
+
 .action-img-pic {
     width: 403px;
-    border-radius:48px;
+    border-radius: 48px;
 }
 
 /* productive-user section */
-.productive-user{
-     max-width: 1140px;
-     margin: 0 auto;
-     background-color: #E5E7FF;
-     border-radius: 50px;
-     padding:50px 142px;
+.productive-user {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #E5E7FF;
+    border-radius: 50px;
+    padding: 50px 142px;
 }
-.users-container{
+
+.users-container {
     display: flex;
     justify-content: space-around;
-    
+
 }
+
 .p-user-title {
     font-size: 38px;
 }
+
 .user-title {
     font-size: 80px;
     margin-bottom: -5px;
 }
+
 .user-subtitle {
     font-size: 20px;
     color: 000000;
@@ -135,11 +143,13 @@ main section {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 .feadback-container {
     display: flex;
-    gap:20px;
+    gap: 20px;
 }
-.feadback{
+
+.feadback {
     background-color: white;
     box-shadow: 0px 6px 50px 0px rgba(242, 237, 237, 1);
     border-radius: 14px;
@@ -148,13 +158,68 @@ main section {
 
 .reviewer-info {
     display: flex;
-    
+
 
 }
-.reviewer-info p{
+
+.reviewer-info p {
     margin-top: 0px;
 }
+
 .reviewer-img {
     margin-top: 0px;
     margin-right: 25px;
+}
+
+/*  contact section */
+.GetInTouch-section {
+    background-color: #f5f7ff;
+    padding: 60px 10%;
+}
+
+.get-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-text {
+    width: 50%;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000;
+}
+
+.get-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+}
+
+.get-form input,
+.get-form textarea {
+    padding: 12px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.get-form textarea {
+    height: 100px;
+    resize: none;
+    border: 2px solid #00aaff;
+}
+
+.get-form button {
+    background-color: #4a3aff;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
 }
